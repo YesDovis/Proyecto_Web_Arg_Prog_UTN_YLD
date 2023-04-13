@@ -1,9 +1,4 @@
-@import url('https://fonts.googleapis.com/css2? family= Raleway:wght@300;400;700;800 & display=swap');
-@media (max-width: 600px) {
-  .facet_sidebar {
-    display: none;
-  }
-}
+/*-----------------------------conf global------------------*/
 *{
     margin: 0;    /*establece el margen (espacio fuera del borde) de todos los elementos en 0.*/
     padding: 0;   /*establece el relleno (espacio dentro del borde) de todos los elementos en 0.*/
@@ -11,8 +6,9 @@
     text-decoration: none; /*elimina cualquier subrayado u otras decoraciones de texto en los elementos.*/
 	/*CHEQUIAR TIPOGRAFIA CON EL EQUIPO*/
 }
-
+/*--------------------------conf CONTENEDOR # 1------------------*/
 body{
+	margin: 0;
     background: #ffffff; /*establece el color de fondo del elemento del cuerpo //CHEQUIAR FONDO CON EL EQUIPO*/
 	
 }
@@ -111,3 +107,7 @@ header.abajo{
     margin: auto;
 	background: #146C94;
 }
+
+/*------------------- Banner deL CONTENEDOR #1 ---------------*/
+/*---ponerle un cover a la img (background-size: cover; animation-duration: 5000ms;----*/
+
