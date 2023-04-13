@@ -101,13 +101,31 @@ header.abajo{
 	opacity: 1;
 }
 
-.contenerdor img{
-	max-width: 100%;
-    padding: 0 10px;
-    margin: auto;
-	background: #146C94;
-}
+
 
 /*------------------- Banner deL CONTENEDOR #1 ---------------*/
 /*---ponerle un cover a la img (background-size: cover; animation-duration: 5000ms;----*/
+
+.contenedor-1{
+	max-width: auto;
+	margin: auto;
+}
+
+/* boton----------------*/
+button{
+	font-size: 1.25em;
+	font-weight: bold;
+	padding: 10px 30px;
+	border-radius: 5px;
+	border: 2px solid rgba(34, 117, 243, 0.3);
+	box-shadow: 2px 2 px 18 px rgba(0, 0, 0, 0.5);
+	color: #ffffff;
+	background-color: #146C94;
+}
+
+button:hover{
+	background-color: #045980;
+}
+
+/*--------------------------------------------------*/
 
